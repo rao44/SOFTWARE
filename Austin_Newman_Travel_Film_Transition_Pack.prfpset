@@ -1,0 +1,2092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Tree ObjectRef="1"/>
+	<Tree ObjectID="1" ClassID="177f2841-dd5b-43bd-9d9a-79e231bd47dd" Version="1">
+		<RootBin ObjectRef="2"/>
+		<Node Version="1">
+		</Node>
+	</Tree>
+	<BinTreeItem ObjectID="2" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Node Version="1">
+			</Node>
+			<Name>Root</Name>
+		</TreeItemBase>
+		<Sorted>false</Sorted>
+		<Expanded>false</Expanded>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="3"/>
+		</Items>
+	</BinTreeItem>
+	<BinTreeItem ObjectID="3" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="4"/>
+			<Node Version="1">
+				<Properties Version="1">
+					<HandlerEffects.EffectItemTree.PresetsBin>1</HandlerEffects.EffectItemTree.PresetsBin>
+				</Properties>
+			</Node>
+			<Name>Presets</Name>
+		</TreeItemBase>
+		<Sorted>true</Sorted>
+		<Expanded>true</Expanded>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="5"/>
+		</Items>
+	</BinTreeItem>
+	<EffectBinItem ObjectID="4" ClassID="5f513d71-0018-4405-a10b-bf5597f99960" Version="1">
+		<Flavor>1</Flavor>
+	</EffectBinItem>
+	<BinTreeItem ObjectID="5" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="6"/>
+			<Node Version="1">
+			</Node>
+			<Name>Austin Newman Travel Film Transitions</Name>
+		</TreeItemBase>
+		<Sorted>true</Sorted>
+		<Expanded>false</Expanded>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="7"/>
+			<Item Index="1" ObjectRef="13"/>
+			<Item Index="2" ObjectRef="19"/>
+			<Item Index="3" ObjectRef="34"/>
+			<Item Index="4" ObjectRef="49"/>
+			<Item Index="5" ObjectRef="83"/>
+			<Item Index="6" ObjectRef="104"/>
+			<Item Index="7" ObjectRef="119"/>
+		</Items>
+	</BinTreeItem>
+	<EffectBinItem ObjectID="6" ClassID="5f513d71-0018-4405-a10b-bf5597f99960" Version="1">
+		<Flavor>1</Flavor>
+	</EffectBinItem>
+	<TreeItem ObjectID="7" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="8"/>
+			<Node Version="1">
+			</Node>
+			<Name>Luma Fade In</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="8" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="9"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="9" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>4513292784000</AnchorOutPoint>
+		<AnchorInPoint>3326699376000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>1</Type>
+		<Component ObjectRef="10"/>
+		<FilterMatchName>AE.ADBE Legacy Key Luma</FilterMatchName>
+		<Description>15 frames (adjust as necessary)&#13;&#13;Beginning of clip</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="10" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Legacy Key Luma</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+			</Node>
+			<InstanceName>Luma Fade in</InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="11"/>
+				<Param Index="1" ObjectRef="12"/>
+			</Params>
+			<DisplayName>Luma Key</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="11" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>29.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>3233467036800,0.,0,0,0,0.16666666666666666,272.45481790936321,0.16666666666666666;3326699376000,100.,0,0,272.45481790936321,0.16666666666666666,-340.45954045953982,0.16666666666666666;3379672296000,29.,0,0,-340.45954045953982,0.16666666666666666,-99.329242186384974,0.16666666666666666;3453834384000,0.,0,0,-99.329242186384974,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Threshold</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="12" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,98.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>3233467036800,0.,0,0,0,0.16666666666666666,272.45481790936321,0.16666666666666666;3326699376000,100.,0,0,272.45481790936321,0.16666666666666666,-199.80019980019955,0.16666666666666666;3453834384000,0.,0,0,-199.80019980019955,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Cutoff</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="13" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="14"/>
+			<Node Version="1">
+			</Node>
+			<Name>Luma Fade Out</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="14" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="15"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="15" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>2065943880000</AnchorOutPoint>
+		<AnchorInPoint>519134616000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="16"/>
+		<FilterMatchName>AE.ADBE Legacy Key Luma</FilterMatchName>
+		<Description>15 frames (adjust as necessary)&#13;&#13;End of clip</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="16" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Legacy Key Luma</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+			</Node>
+			<InstanceName>Luma Fade Out</InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="17"/>
+				<Param Index="1" ObjectRef="18"/>
+			</Params>
+			<DisplayName>Luma Key</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="17" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>29.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>1907025120000,0.,0,0,0,0.16666666666666666,99.329242186385272,0.16666666666666666;1981187208000,29.,0,0,99.329242186385272,0.16666666666666666,212.78721278721272,0.16666666666666666;2065943880000,100.,0,0,212.78721278721272,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Threshold</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="18" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>100.</CurrentValue>
+		<StartKeyframe>-91445760000000000,98.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>1907025120000,0.,0,0,0,0.16666666666666666,159.84015984016,0.16666666666666666;2065943880000,100.,0,0,159.84015984016,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Cutoff</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="19" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="20"/>
+			<Node Version="1">
+			</Node>
+			<Name>Quick Zoom In</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="20" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="21"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="21" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>1500193094400</AnchorOutPoint>
+		<AnchorInPoint>483113030400</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>1</Type>
+		<Component ObjectRef="22"/>
+		<FilterMatchName>AE.ADBE Geometry</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom into closer shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="22" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Geometry</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="23"/>
+				<Param Index="1" ObjectRef="24"/>
+				<Param Index="2" ObjectRef="25"/>
+				<Param Index="3" ObjectRef="26"/>
+				<Param Index="4" ObjectRef="27"/>
+				<Param Index="5" ObjectRef="28"/>
+				<Param Index="6" ObjectRef="29"/>
+				<Param Index="7" ObjectRef="30"/>
+				<Param Index="8" ObjectRef="31"/>
+				<Param Index="9" ObjectRef="32"/>
+				<Param Index="10" ObjectRef="33"/>
+			</Params>
+			<DisplayName>Transform</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="23" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Anchor Point</Name>
+	</PointComponentParam>
+	<PointComponentParam ObjectID="24" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>483113030400,0.5:0.5,0,0,0,0.16666666666666666,2.1888313448864993,0.16666666666666666,5,4,0,0,-0.027821178237597138,0.023302465677261359;508540032000,0.33307293057441711:0.63981479406356812,0,0,2.1894595344533583,0.16666666666666666,0,0.16666666666666666,5,4,0.027821178237597138,-0.023302465677261359,0,0;</Keyframes>
+		<Name>Position</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="25" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>11</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="26" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>3</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>200.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>483113030400,100.,0,0,0,0.16666666666666666,999.00099900100042,0.16666666666666666;508540032000,200.,0,0,999.00099900100042,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Scale Height</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="27" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>4</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Scale Width</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="28" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>5</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>70.</UpperBound>
+		<LowerBound>-70.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="29" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>6</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew Axis</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="30" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>7</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Rotation</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="31" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>8</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Opacity</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="32" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>9</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="33" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>10</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>360.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>180.</CurrentValue>
+		<StartKeyframe>-91445760000000000,180.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Shutter Angle</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="34" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="35"/>
+			<Node Version="1">
+			</Node>
+			<Name>Quick Zoom Out (beginning of clip)</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="35" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="36"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="36" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>50133571488000</AnchorOutPoint>
+		<AnchorInPoint>50108144486400</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>1</Type>
+		<Component ObjectRef="37"/>
+		<FilterMatchName>AE.ADBE Geometry</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="37" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Geometry</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="38"/>
+				<Param Index="1" ObjectRef="39"/>
+				<Param Index="2" ObjectRef="40"/>
+				<Param Index="3" ObjectRef="41"/>
+				<Param Index="4" ObjectRef="42"/>
+				<Param Index="5" ObjectRef="43"/>
+				<Param Index="6" ObjectRef="44"/>
+				<Param Index="7" ObjectRef="45"/>
+				<Param Index="8" ObjectRef="46"/>
+				<Param Index="9" ObjectRef="47"/>
+				<Param Index="10" ObjectRef="48"/>
+			</Params>
+			<DisplayName>Transform</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="38" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Anchor Point</Name>
+	</PointComponentParam>
+	<PointComponentParam ObjectID="39" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Position</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="40" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>11</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="41" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>3</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>100.</CurrentValue>
+		<StartKeyframe>-91445760000000000,300.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>50108144486400,300.,0,0,0,0.16666666666666666,-1998.0019980020452,0.16666666666666666;50133571488000,100.,0,0,-1998.0019980020452,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Scale Height</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="42" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>4</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Scale Width</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="43" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>5</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>70.</UpperBound>
+		<LowerBound>-70.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="44" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>6</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew Axis</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="45" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>7</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Rotation</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="46" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>8</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Opacity</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="47" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>9</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="48" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>10</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>360.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>180.</CurrentValue>
+		<StartKeyframe>-91445760000000000,180.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Shutter Angle</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="49" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="50"/>
+			<Node Version="1">
+			</Node>
+			<Name>Quick Zoom Out (end of clip)</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="50" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="51"/>
+			<FilterPreset Index="1" ObjectRef="54"/>
+			<FilterPreset Index="2" ObjectRef="58"/>
+			<FilterPreset Index="3" ObjectRef="62"/>
+			<FilterPreset Index="4" ObjectRef="66"/>
+			<FilterPreset Index="5" ObjectRef="70"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="51" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="52"/>
+		<FilterMatchName>PR.ADBE Replicate</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="52" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<PremiereFilterPrivateData Encoding="base64" Checksum="4294915981">AwA=</PremiereFilterPrivateData>
+		<VideoFilterType>1</VideoFilterType>
+		<MatchName>PR.ADBE Replicate</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="53"/>
+			</Params>
+			<DisplayName>Replicate</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="53" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>16</UpperBound>
+		<LowerBound>2</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,3,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Count</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="54" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="55"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="55" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="56"/>
+				<Param Index="1" ObjectRef="57"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="56" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,1:0.66481482982635498,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="57" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,90.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="58" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="59"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="59" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="60"/>
+				<Param Index="1" ObjectRef="61"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="60" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,1:0.3333333432674408,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="61" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,-90.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="62" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="63"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="63" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="64"/>
+				<Param Index="1" ObjectRef="65"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="64" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.66562497615814209:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="65" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="66" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="67"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="67" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="68"/>
+				<Param Index="1" ObjectRef="69"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="68" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.3333333432674408:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="69" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,-180.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="70" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>8102737843200</AnchorOutPoint>
+		<AnchorInPoint>8077310841600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>2</Type>
+		<Component ObjectRef="71"/>
+		<FilterMatchName>AE.ADBE Geometry</FilterMatchName>
+		<Description>3 frame transition (adjust as necessary)&#13;&#13;keyframe position as necessary&#13;&#13;Best used to zoom out to wider shots</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="71" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Geometry</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="72"/>
+				<Param Index="1" ObjectRef="73"/>
+				<Param Index="2" ObjectRef="74"/>
+				<Param Index="3" ObjectRef="75"/>
+				<Param Index="4" ObjectRef="76"/>
+				<Param Index="5" ObjectRef="77"/>
+				<Param Index="6" ObjectRef="78"/>
+				<Param Index="7" ObjectRef="79"/>
+				<Param Index="8" ObjectRef="80"/>
+				<Param Index="9" ObjectRef="81"/>
+				<Param Index="10" ObjectRef="82"/>
+			</Params>
+			<DisplayName>Transform</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="72" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Anchor Point</Name>
+	</PointComponentParam>
+	<PointComponentParam ObjectID="73" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Position</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="74" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>11</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="75" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>3</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>100.</CurrentValue>
+		<StartKeyframe>-91445760000000000,300.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>8077310841600,300.,0,0,0,0.16666666666666666,-1998.0019980019742,0.16666666666666666;8102737843200,100.,0,0,-1998.0019980019742,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Scale Height</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="76" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>4</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Scale Width</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="77" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>5</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>70.</UpperBound>
+		<LowerBound>-70.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="78" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>6</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew Axis</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="79" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>7</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Rotation</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="80" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>8</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Opacity</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="81" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>9</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="82" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>10</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>360.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>180.</CurrentValue>
+		<StartKeyframe>-91445760000000000,180.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Shutter Angle</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="83" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="84"/>
+			<Node Version="1">
+			</Node>
+			<Name>Spin Transition (Bottom Adj layer)</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="84" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="85"/>
+			<FilterPreset Index="1" ObjectRef="88"/>
+			<FilterPreset Index="2" ObjectRef="92"/>
+			<FilterPreset Index="3" ObjectRef="96"/>
+			<FilterPreset Index="4" ObjectRef="100"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="85" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914965225574400</AnchorOutPoint>
+		<AnchorInPoint>914846566233600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="86"/>
+		<FilterMatchName>PR.ADBE Replicate</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="86" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<PremiereFilterPrivateData Encoding="base64" Checksum="4294915981">AwA=</PremiereFilterPrivateData>
+		<VideoFilterType>1</VideoFilterType>
+		<MatchName>PR.ADBE Replicate</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="87"/>
+			</Params>
+			<DisplayName>Replicate</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="87" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>16</UpperBound>
+		<LowerBound>2</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,3,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Count</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="88" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914965225574400</AnchorOutPoint>
+		<AnchorInPoint>914846566233600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="89"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="89" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="90"/>
+				<Param Index="1" ObjectRef="91"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="90" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,1:0.66388887166976929,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="91" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,90.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="92" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914965225574400</AnchorOutPoint>
+		<AnchorInPoint>914846566233600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="93"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="93" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="94"/>
+				<Param Index="1" ObjectRef="95"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="94" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,1:0.3333333432674408,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="95" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,-90.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="96" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914965225574400</AnchorOutPoint>
+		<AnchorInPoint>914846566233600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="97"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="97" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="98"/>
+				<Param Index="1" ObjectRef="99"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="98" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.3333333432674408:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="99" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,180.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="100" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914965225574400</AnchorOutPoint>
+		<AnchorInPoint>914846566233600</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="101"/>
+		<FilterMatchName>AE.ADBE Mirror</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="101" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Mirror</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="102"/>
+				<Param Index="1" ObjectRef="103"/>
+			</Params>
+			<DisplayName>Mirror</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="102" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.66562497615814209:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Center</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="103" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Reflection Angle</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="104" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="105"/>
+			<Node Version="1">
+			</Node>
+			<Name>Spin Transition (Top Adj layer)</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="105" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="106"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="106" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914679864000000</AnchorOutPoint>
+		<AnchorInPoint>914531688000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="107"/>
+		<FilterMatchName>AE.ADBE Geometry</FilterMatchName>
+		<Description>Add to bottom adjustment layer above the transition layers</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="107" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Geometry</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+			</Node>
+			<InstanceName>Spin Transition (Top Adj layer)</InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="108"/>
+				<Param Index="1" ObjectRef="109"/>
+				<Param Index="2" ObjectRef="110"/>
+				<Param Index="3" ObjectRef="111"/>
+				<Param Index="4" ObjectRef="112"/>
+				<Param Index="5" ObjectRef="113"/>
+				<Param Index="6" ObjectRef="114"/>
+				<Param Index="7" ObjectRef="115"/>
+				<Param Index="8" ObjectRef="116"/>
+				<Param Index="9" ObjectRef="117"/>
+				<Param Index="10" ObjectRef="118"/>
+			</Params>
+			<DisplayName>Transform</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<PointComponentParam ObjectID="108" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Anchor Point</Name>
+	</PointComponentParam>
+	<PointComponentParam ObjectID="109" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<ParameterControlType>6</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Position</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="110" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>11</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="111" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>3</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>300.</CurrentValue>
+		<StartKeyframe>-91445760000000000,300.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Scale Height</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="112" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>4</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>200.</UpperUIBound>
+		<LowerUIBound>-200.</LowerUIBound>
+		<UpperBound>300.</UpperBound>
+		<LowerBound>-300.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Scale Width</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="113" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>5</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>70.</UpperBound>
+		<LowerBound>-70.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="114" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>6</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Skew Axis</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="115" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Angle.Expanded>true</ECP.Angle.Expanded>
+			</Properties>
+		</Node>
+		<ParameterID>7</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>914531688000000,0.,5,0,385.32895675772482,0.33333333333333331,-107.82983019356942,0.28138528147608249;914679864000000,360.,5,0,385.32895675772482,0.33333333333333331,385.32895675772482,0.33333333333333331;</Keyframes>
+		<Name>Rotation</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="116" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>8</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Opacity</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="117" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>9</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="118" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>10</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>360.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>250.</CurrentValue>
+		<StartKeyframe>-91445760000000000,250.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Shutter Angle</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="119" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="120"/>
+			<Node Version="1">
+			</Node>
+			<Name>Warp Transition</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="120" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="121"/>
+			<FilterPreset Index="1" ObjectRef="130"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="121" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>915117787584000</AnchorOutPoint>
+		<AnchorInPoint>914799950064000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="122"/>
+		<FilterMatchName>PR.ADBE Lens Distortion</FilterMatchName>
+		<Description>Add to adjustment layer above two clips&#13;&#13;add cross-dissolve for best look&#13;&#13;use with RGB Split for cool results</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="122" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<PremiereFilterPrivateData Encoding="base64" Checksum="269524381">AAAAAAAAAAAAAAH///8AAA==</PremiereFilterPrivateData>
+		<VideoFilterType>1</VideoFilterType>
+		<MatchName>PR.ADBE Lens Distortion</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="123"/>
+				<Param Index="1" ObjectRef="124"/>
+				<Param Index="2" ObjectRef="125"/>
+				<Param Index="3" ObjectRef="126"/>
+				<Param Index="4" ObjectRef="127"/>
+				<Param Index="5" ObjectRef="128"/>
+				<Param Index="6" ObjectRef="129"/>
+			</Params>
+			<DisplayName>Lens Distortion</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="123" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Slider.Expanded>true</ECP.Slider.Expanded>
+			</Properties>
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100</UpperBound>
+		<LowerBound>-100</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,-100,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>914799950064000,0,5,0,-79.920079920063657,0.33333333333333331,-79.920079920063657,0.33333333333333331;914958868824000,-67,5,0,-335.66433566433568,0.33333333333333331,211.33192834562692,0.35064935064935066;915117787584000,0,5,0,79.920079920063657,0.33333333333333331,79.920079920063657,0.33333333333333331;</Keyframes>
+		<Name>Curvature</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="124" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100</UpperBound>
+		<LowerBound>-100</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Vertical Decentering</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="125" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100</UpperBound>
+		<LowerBound>-100</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Horizontal Decentering</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="126" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100</UpperBound>
+		<LowerBound>-100</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Vertical Prism FX</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="127" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>100</UpperBound>
+		<LowerBound>-100</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>1</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Horizontal Prism FX</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="128" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<CurrentValue>false</CurrentValue>
+		<StartKeyframe>-91445760000000000,true,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>4</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name></Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="129" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>-1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>0</UpperUIBound>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<CurrentValue>0</CurrentValue>
+		<StartKeyframe>-91445760000000000,18374966859414961920,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>5</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Fill Color</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="130" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>915117787584000</AnchorOutPoint>
+		<AnchorInPoint>914799950064000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Component ObjectRef="131"/>
+		<FilterMatchName>AE.ADBE Motion Blur</FilterMatchName>
+		<Description>Add to adjustment layer above two clips&#13;&#13;add cross-dissolve for best look&#13;&#13;use with RGB Split for cool results</Description>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="131" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Motion Blur</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="132"/>
+				<Param Index="1" ObjectRef="133"/>
+			</Params>
+			<DisplayName>Directional Blur</DisplayName>
+			<Bypass>false</Bypass>
+			<ID>0</ID>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="132" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>1</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<CurrentValue>0.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>3</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>false</IsTimeVarying>
+		<Keyframes></Keyframes>
+		<Name>Direction</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="133" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<ParameterID>2</ParameterID>
+		<RangeLocked>false</RangeLocked>
+		<UnitsString></UnitsString>
+		<UpperUIBound>20.</UpperUIBound>
+		<UpperBound>1000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<CurrentValue>35.</CurrentValue>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<ParameterControlType>2</ParameterControlType>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<IsTimeVarying>true</IsTimeVarying>
+		<Keyframes>914799950064000,0.,0,0,0,0.16666666666666666,55.944055944044557,0.16666666666666666;914958868824000,35.,0,0,55.944055944044557,0.16666666666666666,-55.944055944044557,0.16666666666666666;915117787584000,0.,0,0,-55.944055944044557,0.16666666666666666,0,0.16666666666666666;</Keyframes>
+		<Name>Blur Length</Name>
+	</VideoComponentParam>
+</PremiereData>
